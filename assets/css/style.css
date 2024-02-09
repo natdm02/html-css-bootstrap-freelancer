@@ -1,37 +1,43 @@
+
+
+
+/***** background *****/
+
 .mc_bgcolor_grey{
   background-color: #2C3E50;
 }
+
 .mc_bgcolor_green{
   background-color: #1abc9c;
 }
-.mc_bgcolor_lightgrey{
-  background-color: #3A546D;
-}
+
 .mc_bgcolor_green >*{
   color: white;
 }
+
+.mc_bgcolor_lightgrey{
+  background-color: #3A546D;
+}
+
 .mc_bgcolor_white >*{
   color: black;
 }
-footer{
-  color: white;
-}
+
 .mc_bgcolor_grey >*{
   color: white;
 }
+/***** background *****/
 
-.mc_font_small{
-  font-size: 0.7rem;
-}
-.mc_txt_color{
-  color: darkcyan;
-}
+
+/* stelle  */
+
 .ms_star_black,
 .ms_star_white{
   margin: 20px auto;
   max-width: 300px;
   min-width: 100%;
 }
+
 .ms_star_black::after,
 .ms_star_black::before{
   content: '';
@@ -42,6 +48,7 @@ footer{
   vertical-align: middle;
   background-color: black;
 }
+
 .ms_star_white::after,
 .ms_star_white::before{
   content: '';
@@ -52,18 +59,25 @@ footer{
   vertical-align: middle;
   background-color: white;
 }
+/* ------------ */
+
 .mc_width{
   width: 100%;
 }
+
+/* immagini con plus   */
 .mc_hover{
   position: relative;
 }
+
 .mc_hover:hover{
   cursor: pointer;
 }
+
 .mc_hover:hover img{
   opacity: 0.4;
 }
+
 .mc_plus{
   position: absolute;
   width: 100%;
@@ -74,9 +88,25 @@ footer{
   color: lightslategray;
   font-size: 6rem;
 }
+
 .mc_hover:hover .mc_plus{
   display: flex;
   justify-content: center;
   align-items: center;
   
+}
+/* --------------- */
+
+/* *footer * */
+
+footer{
+  color: white;
+}
+
+.mc_font_small{
+  font-size: 0.7rem;
+}
+
+.mc_txt_color{
+  color: darkcyan;
 }
